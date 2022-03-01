@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'CloudAuthentication_Example' do
+  
+  pod 'Firebase/Auth'
+  pod 'Amplify'
+  pod 'AmplifyPlugins/AWSCognitoAuthPlugin', '>= 0'
+  pod 'CloudAuthentication', :path => '../'
+  
+end

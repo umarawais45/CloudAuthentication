@@ -1,0 +1,130 @@
+PODS:
+  - Amplify (1.21.0):
+    - Amplify/Default (= 1.21.0)
+  - Amplify/Default (1.21.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.21.0):
+    - AWSAuthCore (~> 2.27.0)
+    - AWSCognitoIdentityProvider (~> 2.27.0)
+    - AWSCognitoIdentityProviderASF (~> 2.27.0)
+    - AWSCore (~> 2.27.0)
+    - AWSMobileClient (~> 2.27.0)
+    - AWSPluginsCore (= 1.21.0)
+  - AWSAuthCore (2.27.1):
+    - AWSCore (= 2.27.1)
+  - AWSCognitoIdentityProvider (2.27.1):
+    - AWSCognitoIdentityProviderASF (= 2.27.1)
+    - AWSCore (= 2.27.1)
+  - AWSCognitoIdentityProviderASF (2.27.1):
+    - AWSCore (= 2.27.1)
+  - AWSCore (2.27.1)
+  - AWSMobileClient (2.27.1):
+    - AWSAuthCore (= 2.27.1)
+    - AWSCognitoIdentityProvider (= 2.27.1)
+    - AWSCognitoIdentityProviderASF (= 2.27.1)
+    - AWSCore (= 2.27.1)
+  - AWSPluginsCore (1.21.0):
+    - Amplify (= 1.21.0)
+    - AWSCore (~> 2.27.0)
+  - CloudAuthentication (0.1.0):
+    - Amplify
+    - AmplifyPlugins/AWSCognitoAuthPlugin
+    - Firebase/Auth
+  - Firebase/Auth (8.12.1):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.12.0)
+  - Firebase/CoreOnly (8.12.1):
+    - FirebaseCore (= 8.12.1)
+  - FirebaseAuth (8.12.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.12.1):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.12.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - PromisesObjC (2.0.0)
+
+DEPENDENCIES:
+  - Amplify
+  - AmplifyPlugins/AWSCognitoAuthPlugin
+  - CloudAuthentication (from `../`)
+  - Firebase/Auth
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - PromisesObjC
+
+EXTERNAL SOURCES:
+  CloudAuthentication:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Amplify: 8af0fbd1856d7418469ee3f940f428925902210e
+  AmplifyPlugins: f2a93ae2a981e3a7f362ad00c39e2656af038215
+  AWSAuthCore: 9528c60ccdac6df6024fb0af1ed6a43782fd2d3d
+  AWSCognitoIdentityProvider: 4de7f96340be72c1dca35c0ba835c6b9b69a28c0
+  AWSCognitoIdentityProviderASF: 727f7c1c80d667a2da79e408c8c8745eac981d58
+  AWSCore: f859f6955a8e52dcb3e79fac95fef058639d1049
+  AWSMobileClient: 9c1edcbe7088b3c9b910aaf6faf2db43a8f1568d
+  AWSPluginsCore: d0e4ea6ca225b0f79e40193178c06348b8220a86
+  CloudAuthentication: 4168d0e6d5e6f565e4a3fa67dd7b1a1a25309694
+  Firebase: 580d09e8edafc3073ebf09c03fd42e4d80d35fe9
+  FirebaseAuth: 5250d7bdba35e57cc34ec7ddc525f82b2757f2a0
+  FirebaseCore: 8138de860a90ca7eec5e324da5788fb0ebf1d93c
+  FirebaseCoreDiagnostics: 3b40dfadef5b90433a60ae01f01e90fe87aa76aa
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+
+PODFILE CHECKSUM: c113688fb509e25bee4a55811039e993a80db28f
+
+COCOAPODS: 1.11.2

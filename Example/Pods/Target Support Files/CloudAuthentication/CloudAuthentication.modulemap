@@ -1,0 +1,6 @@
+framework module CloudAuthentication {
+  umbrella header "CloudAuthentication-umbrella.h"
+
+  export *
+  module * { export * }
+}

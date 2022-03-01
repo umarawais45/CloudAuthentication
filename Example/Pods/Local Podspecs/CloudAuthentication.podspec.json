@@ -1,0 +1,36 @@
+{
+  "name": "CloudAuthentication",
+  "version": "0.1.0",
+  "summary": "A framework that handles AWS and Firebase Authentication.",
+  "swift_versions": "5.0",
+  "description": "'It includes firebase anonymous login and aws federated sign-in.'",
+  "homepage": "https://github.com/Umar Awais/CloudAuthentication",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Umar Awais": "umar.awais45@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Umar Awais/CloudAuthentication.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://www.linkedin.com/in/umarawais/<umarawais>",
+  "source_files": "CloudAuthentication/Classes/**/*",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "dependencies": {
+    "Firebase/Auth": [
+
+    ],
+    "Amplify": [
+
+    ],
+    "AmplifyPlugins/AWSCognitoAuthPlugin": [
+      ">= 0"
+    ]
+  },
+  "swift_version": "5.0"
+}

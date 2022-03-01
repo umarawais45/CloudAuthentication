@@ -1,0 +1,6 @@
+framework module Pods_CloudAuthentication_Example {
+  umbrella header "Pods-CloudAuthentication_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
