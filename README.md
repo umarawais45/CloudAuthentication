@@ -1,15 +1,11 @@
 # CloudAuthentication
 
-[![CI Status](https://img.shields.io/travis/Umar Awais/CloudAuthentication.svg?style=flat)](https://travis-ci.org/Umar Awais/CloudAuthentication)
-[![Version](https://img.shields.io/cocoapods/v/CloudAuthentication.svg?style=flat)](https://cocoapods.org/pods/CloudAuthentication)
-[![License](https://img.shields.io/cocoapods/l/CloudAuthentication.svg?style=flat)](https://cocoapods.org/pods/CloudAuthentication)
-[![Platform](https://img.shields.io/cocoapods/p/CloudAuthentication.svg?style=flat)](https://cocoapods.org/pods/CloudAuthentication)
+A framework that handles AWS and Firebase Authentication. It includes firebase anonymous login and aws federated sign-in.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+`iOS 13.0`
 
 ## Installation
 
@@ -19,6 +15,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CloudAuthentication'
 ```
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
