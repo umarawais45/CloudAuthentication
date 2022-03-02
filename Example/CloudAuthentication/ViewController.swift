@@ -15,9 +15,31 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        signIn()
+    }
+    
+    func signIn() {
+        if !Auth.shared.isFirebaseLoggedIn {
+            Auth.shared.firebaseSignIn { success in
+                Auth.shared.getFirebaseToken { token in
+                    if let token = token {
+                        Auth.shared.awsSignIn(token: token) { success in
+                            
+                        }
+                    }
+                }
+            }
+        } else {
+            Auth.shared.getFirebaseToken { token in
+                if let token = token {
+                    Auth.shared.awsSignIn(token: token) { success in
+                        
+                    }
+                }
+            }
+        }
     }
 
 }

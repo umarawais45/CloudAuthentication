@@ -25,7 +25,7 @@ PODS:
   - AWSPluginsCore (1.21.0):
     - Amplify (= 1.21.0)
     - AWSCore (~> 2.27.0)
-  - CloudAuthentication (0.1.0):
+  - CloudAuthentication (1.0):
     - Amplify
     - AmplifyPlugins/AWSCognitoAuthPlugin
     - Firebase/Auth
@@ -114,7 +114,7 @@ SPEC CHECKSUMS:
   AWSCore: f859f6955a8e52dcb3e79fac95fef058639d1049
   AWSMobileClient: 9c1edcbe7088b3c9b910aaf6faf2db43a8f1568d
   AWSPluginsCore: d0e4ea6ca225b0f79e40193178c06348b8220a86
-  CloudAuthentication: 4168d0e6d5e6f565e4a3fa67dd7b1a1a25309694
+  CloudAuthentication: 1d623353ec8c8096e82935dd0099b8baf2c61455
   Firebase: 580d09e8edafc3073ebf09c03fd42e4d80d35fe9
   FirebaseAuth: 5250d7bdba35e57cc34ec7ddc525f82b2757f2a0
   FirebaseCore: 8138de860a90ca7eec5e324da5788fb0ebf1d93c

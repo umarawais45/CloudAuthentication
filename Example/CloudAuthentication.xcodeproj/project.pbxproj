@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		9C2E26452CC1D04BC7E5B435 /* Pods_CloudAuthentication_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A553AF02A637BC08A9479A5 /* Pods_CloudAuthentication_Example.framework */; };
+		FA82C06827CF381E00BA40D4 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82C06727CF381E00BA40D4 /* Auth.swift */; };
+		FA82C06A27CF386700BA40D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82C06927CF386700BA40D4 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BECA8AB3214C530175F808D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D5936652EF69AAF2BA9CF87D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D78166BF7479829159F12F35 /* CloudAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CloudAuthentication.podspec; path = ../CloudAuthentication.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA82C06727CF381E00BA40D4 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		FA82C06927CF386700BA40D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				FA82C06727CF381E00BA40D4 /* Auth.swift */,
+				FA82C06927CF386700BA40D4 /* Constants.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -264,6 +270,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				FA82C06827CF381E00BA40D4 /* Auth.swift in Sources */,
+				FA82C06A27CF386700BA40D4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@ pod 'CloudAuthentication'
 ```
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first. For firebase authentication, add your 'GoogleService-Info.plist' file to the bundle. For AWS federated sign-in, include your 'awsconfiguration.json' and 'amplifyconfiguration.json' files in the bundle.
 
 ## Author
 
