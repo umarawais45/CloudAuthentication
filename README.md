@@ -1,6 +1,6 @@
 # CloudAuthentication
 
-A framework that handles AWS and Firebase Authentication. It includes firebase anonymous login and aws federated sign-in.
+A framework that handles AWS(Federated), Firebase, Google and Apple Authentication.
 
 
 ## Requirements
