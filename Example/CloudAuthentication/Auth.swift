@@ -12,6 +12,8 @@ class Auth {
     
     private var _auth: CloudAuthentication!
     
+    weak var delegate: CloudAuthenticationDelegate?
+    
     static var shared = Auth()
     
     func initialize() {
@@ -39,8 +41,20 @@ class Auth {
         }
     }
     
+    func appleSignIn() {
+        _auth.delegate = delegate
+        _auth.signInWithApple()
+    }
+    
+    func googleSignIn(completion: @escaping ((Bool) -> Void)) {
+        _auth.signinWithGoogle(googleClientID: Constants.googleClientID) { success, credential in
+            completion(success)
+        }
+    }
+    
     var isFirebaseLoggedIn: Bool {
         return _auth.firebaseUser != nil
     }
     
 }
+

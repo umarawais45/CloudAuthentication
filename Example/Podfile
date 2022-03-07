@@ -7,6 +7,7 @@ target 'CloudAuthentication_Example' do
   pod 'Firebase/Auth'
   pod 'Amplify'
   pod 'AmplifyPlugins/AWSCognitoAuthPlugin', '>= 0'
+  pod 'GoogleSignIn'
   pod 'CloudAuthentication', :path => '../'
   
 end

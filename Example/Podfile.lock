@@ -9,6 +9,11 @@ PODS:
     - AWSCore (~> 2.27.0)
     - AWSMobileClient (~> 2.27.0)
     - AWSPluginsCore (= 1.21.0)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
   - AWSAuthCore (2.27.1):
     - AWSCore (= 2.27.1)
   - AWSCognitoIdentityProvider (2.27.1):
@@ -25,10 +30,11 @@ PODS:
   - AWSPluginsCore (1.21.0):
     - Amplify (= 1.21.0)
     - AWSCore (~> 2.27.0)
-  - CloudAuthentication (1.0):
+  - CloudAuthentication (1.01):
     - Amplify
     - AmplifyPlugins/AWSCognitoAuthPlugin
     - Firebase/Auth
+    - GoogleSignIn
   - Firebase/Auth (8.12.1):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 8.12.0)
@@ -52,6 +58,10 @@ PODS:
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleSignIn (6.1.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
   - GoogleUtilities/AppDelegateSwizzler (7.7.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -67,6 +77,9 @@ PODS:
   - "GoogleUtilities/NSData+zlib (7.7.0)"
   - GoogleUtilities/Reachability (7.7.0):
     - GoogleUtilities/Logger
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
   - GTMSessionFetcher/Core (1.7.0)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -80,11 +93,13 @@ DEPENDENCIES:
   - AmplifyPlugins/AWSCognitoAuthPlugin
   - CloudAuthentication (from `../`)
   - Firebase/Auth
+  - GoogleSignIn
 
 SPEC REPOS:
   trunk:
     - Amplify
     - AmplifyPlugins
+    - AppAuth
     - AWSAuthCore
     - AWSCognitoIdentityProvider
     - AWSCognitoIdentityProviderASF
@@ -96,7 +111,9 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - GoogleDataTransport
+    - GoogleSignIn
     - GoogleUtilities
+    - GTMAppAuth
     - GTMSessionFetcher
     - nanopb
     - PromisesObjC
@@ -108,23 +125,26 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Amplify: 8af0fbd1856d7418469ee3f940f428925902210e
   AmplifyPlugins: f2a93ae2a981e3a7f362ad00c39e2656af038215
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
   AWSAuthCore: 9528c60ccdac6df6024fb0af1ed6a43782fd2d3d
   AWSCognitoIdentityProvider: 4de7f96340be72c1dca35c0ba835c6b9b69a28c0
   AWSCognitoIdentityProviderASF: 727f7c1c80d667a2da79e408c8c8745eac981d58
   AWSCore: f859f6955a8e52dcb3e79fac95fef058639d1049
   AWSMobileClient: 9c1edcbe7088b3c9b910aaf6faf2db43a8f1568d
   AWSPluginsCore: d0e4ea6ca225b0f79e40193178c06348b8220a86
-  CloudAuthentication: 1d623353ec8c8096e82935dd0099b8baf2c61455
+  CloudAuthentication: ac08636b0439961faa87afb9f95d9eb99a77c589
   Firebase: 580d09e8edafc3073ebf09c03fd42e4d80d35fe9
   FirebaseAuth: 5250d7bdba35e57cc34ec7ddc525f82b2757f2a0
   FirebaseCore: 8138de860a90ca7eec5e324da5788fb0ebf1d93c
   FirebaseCoreDiagnostics: 3b40dfadef5b90433a60ae01f01e90fe87aa76aa
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: c113688fb509e25bee4a55811039e993a80db28f
+PODFILE CHECKSUM: 81fce83cf5840c9142cd07bd95eee19373151977
 
 COCOAPODS: 1.11.2

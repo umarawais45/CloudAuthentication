@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CloudAuthentication'
-  s.version          = '1.0'
+  s.version          = '1.01'
   s.summary          = 'A framework that handles AWS and Firebase Authentication.'
   s.swift_version    = '5.0'
 
@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
   s.dependency 'Firebase/Auth'
   s.dependency 'Amplify'
   s.dependency 'AmplifyPlugins/AWSCognitoAuthPlugin', '>= 0'
+  s.dependency 'GoogleSignIn'
   
   # s.resource_bundles = {
   #   'CloudAuthentication' => ['CloudAuthentication/Assets/*.png']

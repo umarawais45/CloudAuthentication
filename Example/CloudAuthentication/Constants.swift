@@ -12,5 +12,6 @@ import Foundation
 struct Constants {
     
     static var awsProviderName = "Your-AWS-Provider-Name"
+    static var googleClientID = "Your-Google-ClientID"
     
 }
