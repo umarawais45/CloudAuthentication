@@ -36,7 +36,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="60"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bhe-X0-Mgo">
-                                                <rect key="frame" x="79.5" y="15" width="195" height="30"/>
+                                                <rect key="frame" x="75.5" y="15" width="203" height="30"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="google" translatesAutoresizingMaskIntoConstraints="NO" id="rOE-J1-0L8">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -45,7 +45,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in with Google" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAe-7m-reW">
-                                                        <rect key="frame" x="46" y="0.0" width="149" height="30"/>
+                                                        <rect key="frame" x="46" y="0.0" width="157" height="30"/>
                                                         <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="18"/>
                                                         <color key="textColor" name="Dark Grey"/>
                                                         <nil key="highlightedColor"/>
@@ -95,20 +95,20 @@
                                         <rect key="frame" x="0.0" y="80" width="354" height="30"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uO4-EE-4AK">
-                                                <rect key="frame" x="0.0" y="14.5" width="154" height="1"/>
+                                                <rect key="frame" x="0.0" y="14.5" width="152" height="1"/>
                                                 <color key="backgroundColor" name="Dark Grey"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="R2u-ba-joc"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Or " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6r-6K-dZg">
-                                                <rect key="frame" x="164" y="4.5" width="26.5" height="21.5"/>
+                                                <rect key="frame" x="162" y="4.5" width="30" height="21"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="18"/>
                                                 <color key="textColor" name="Dark Grey"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oKg-QA-Caf">
-                                                <rect key="frame" x="200.5" y="14.5" width="153.5" height="1"/>
+                                                <rect key="frame" x="202" y="14.5" width="152" height="1"/>
                                                 <color key="backgroundColor" name="Dark Grey"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="l9p-fd-CRQ"/>
@@ -124,7 +124,7 @@
                                         <rect key="frame" x="0.0" y="130" width="354" height="60"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IOA-gV-0ZZ">
-                                                <rect key="frame" x="85" y="15" width="184" height="30"/>
+                                                <rect key="frame" x="81.5" y="15" width="191.5" height="30"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="applelogo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eQc-G0-JFD">
                                                         <rect key="frame" x="0.0" y="0.5" width="30" height="28.5"/>
@@ -134,7 +134,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in with Apple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFy-gv-D7R">
-                                                        <rect key="frame" x="46" y="0.0" width="138" height="30"/>
+                                                        <rect key="frame" x="46" y="0.0" width="145.5" height="30"/>
                                                         <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="18"/>
                                                         <color key="textColor" name="Dark Grey"/>
                                                         <nil key="highlightedColor"/>
@@ -190,20 +190,20 @@
                                         <rect key="frame" x="0.0" y="210" width="354" height="30"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vix-xq-8Xd">
-                                                <rect key="frame" x="0.0" y="14.5" width="154" height="1"/>
+                                                <rect key="frame" x="0.0" y="14.5" width="152" height="1"/>
                                                 <color key="backgroundColor" name="Dark Grey"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="OhS-7H-XZM"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Or " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuN-ow-wyO">
-                                                <rect key="frame" x="164" y="4.5" width="26.5" height="21.5"/>
+                                                <rect key="frame" x="162" y="4.5" width="30" height="21"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="18"/>
                                                 <color key="textColor" name="Dark Grey"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lAc-XR-Ui8">
-                                                <rect key="frame" x="200.5" y="14.5" width="153.5" height="1"/>
+                                                <rect key="frame" x="202" y="14.5" width="152" height="1"/>
                                                 <color key="backgroundColor" name="Dark Grey"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="KaO-i0-hOe"/>
@@ -219,7 +219,7 @@
                                         <rect key="frame" x="0.0" y="260" width="354" height="60"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khu-i6-7Fd">
-                                                <rect key="frame" x="48.5" y="15" width="257" height="30"/>
+                                                <rect key="frame" x="44.5" y="15" width="265.5" height="30"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firebase" translatesAutoresizingMaskIntoConstraints="NO" id="786-le-slM">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -229,7 +229,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firebase Anonymous Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2G-GO-Ys3">
-                                                        <rect key="frame" x="46" y="0.0" width="211" height="30"/>
+                                                        <rect key="frame" x="46" y="0.0" width="219.5" height="30"/>
                                                         <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="18"/>
                                                         <color key="textColor" name="Dark Grey"/>
                                                         <nil key="highlightedColor"/>
