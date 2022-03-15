@@ -126,7 +126,7 @@ extension CloudAuthentication: ASAuthorizationControllerDelegate {
     }
     
     public func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
-        delegate?.appleSignInDidFailed(withError: error)
+        delegate?.appleSignInDidFail(withError: error)
     }
     
     public func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {

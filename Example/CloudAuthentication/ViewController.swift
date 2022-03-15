@@ -85,7 +85,7 @@ class ViewController: UIViewController {
 
 extension ViewController: CloudAuthenticationDelegate {
     
-    func appleSignInDidFailed(withError error: Error) {
+    func appleSignInDidFail(withError error: Error) {
         print(error)
     }
     
